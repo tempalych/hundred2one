@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/************
+     Teams
+************/
+.table-teams{
+  width: 100%;
+  text-align: center;
+  background-color: gold;
+  font-family: 'Roboto';
+}
+.td-team{
+  background-color: gold;
+  font-size: 50px;
+  color: #282c34;
+  width: 45%;
+  vertical-align: middle;
+  text-align: center;
+  word-break: break-all;
+}
+
+.td-vs{
+  background-color: gold;
+  font-size: 50px;
+  color: #282c34;
+  width: 10%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.input-team-name{
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  width: 100%;
+  font-family: inherit;
+  border: 0px;
+}
+
+/************
+     Game
+************/
+
+.table-game{
+  width: 100%;
+  text-align: center;
+  background-color: gold;
+  color: #282c34;
+  font-family: 'Roboto';
+}
+
+.table-game-types{
+  width:70%;
+  text-align: center;
+  margin: auto;
+  color: #282c34;
+}
+
+.td-game-type-selected{
+  font-size: 30px;
+  color: #282c34;
+  font-weight: 999;
+  border: 2px;
+  border-style:solid; 
+}
+.td-game-type-unselected{
+  font-size: 20px;
+  color: #333333;
+}
+
+.td-points-total{
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  width: 20%;
+  font-family: inherit;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.td-points-team{
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  width: 20%;
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.question{
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.answer{
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.td-arrow-left{
+  cursor: w-resize;
+}
+.td-arrow-right{
+  cursor: e-resize;
+}
